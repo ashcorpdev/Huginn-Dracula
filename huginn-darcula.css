@@ -1,0 +1,97 @@
+@-moz-document url-prefix("http://<huginn_ip>:<port>"), domain("<huginn_ip>"), domain("https://<huginn_ip>:<port>") {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    background-color: #44475a;
+    color: #f8f8f2;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.navbar-default {
+    background-color: #44475a;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #f8f8f2;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #f8f8f2;
+    
+}
+
+.dropdown-menu {
+    background-color: #282a36;
+}
+
+.dropdown-menu > li > a {
+  color: #f8f8f2;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #44475a;
+    color: #f8f8f2;
+}
+
+.dropdown-hover .open {
+    background-color: #ff79c6;
+}
+
+.navbar-default .navbar-nav > .open > a {
+    background-color:  #ff79c6;
+    color: #282a36;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color:  #ff79c6;
+    color: #282a36;
+}
+
+.navbar-default .navbar-nav > .open > a:hover {
+    background-color:  #ff79c6;
+    color: #282a36;
+}
+
+a {
+    color:  #ff79c6;
+}
+
+table {
+    background-color:  #44475a;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #282a36;
+}
+
+.table > tbody > tr > td {
+    border-top: 1px solid #44475a;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #f8f8f2;
+  background-color: transparent;
+}
+
+.text-success {
+    color: #50fa7b;
+}
+
+.well {
+    background-color: #44475a;
+}
+
+.json-editor .builder {
+    background-color: #44475a;
+}
+
+.json-editor div {
+    background-color: #282a36;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+    background-color:  #44475a;
+    border-color: #44475a;
+}
+}
